@@ -1,3 +1,17 @@
 body{
     background-color: blueviolet;
 }
+
+.typeimage{
+    width: 300px;
+}
+
+
+/*Type Task*/
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
