@@ -1,0 +1,14 @@
+header{
+    background-color: crimson;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
