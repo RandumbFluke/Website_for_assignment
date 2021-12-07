@@ -1,0 +1,85 @@
+body{
+    background-color: royalblue;
+}
+
+.typeimage{
+    width: 300px;
+}
+
+
+.type-container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button{
+    border: 1px solid rgb(102, 19, 180);
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
+button:hover {
+    background-color: rgb(24, 194, 216);
+    color: rgb(226, 17, 17);
+}
+
+button:active {
+    background-color: blueviolet;
+    box-shadow: 0 5px purple;
+    transform: translateY(4px);
+}
+
+.subtitle{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.left-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.left-wrap .mediacontent-left {
+    flex: 1;
+    padding: 10px;
+}
+
+.mediacontent-left {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.right-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mediacontent-right {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.right-wrap .mediacontent-right {
+    flex: 1;
+    padding: 10px;
+}
