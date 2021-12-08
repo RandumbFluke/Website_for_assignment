@@ -3,25 +3,11 @@
 body{
     background-color: turquoise;
 }
-
-.subtitle{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
-
 .section-one{
     /*background-color: yellow;*/
     height: 600px;
     display: flex;
 }
-
-/*.section-two{
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .media-container {
     display: flex;
@@ -29,6 +15,13 @@ body{
     justify-content: space-evenly;
     /*padding: 15px 25px 15px 15px; */
 }
+
+.subtitle{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
 
 .carpimage{
     border: 1px dashed white;
@@ -55,3 +48,13 @@ body{
     padding: 10px;
 }
 
+.section-two{
+    height: 600px;
+    display: flex;
+} 
+
+.secondary-images{
+    border: 1px dashed white;
+    width: 300px;
+    padding: 4px;
+}
