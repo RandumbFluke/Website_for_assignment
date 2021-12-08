@@ -83,7 +83,7 @@ button:active {
 }
 */
 
-.axial-section{
+.media-section{
     height: 500px;
 }
 
@@ -103,6 +103,13 @@ button:active {
 .media-container .mediacontent{
     flex: 1;
     padding: 10px;
+}
+
+.media-container-right{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-right: 20px;
 }
 
 /*

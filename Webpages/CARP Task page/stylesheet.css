@@ -1,7 +1,8 @@
-/* body{
-    background-color: blueviolet ;
-} */
-
+/* Global */
+.subheading{
+    color: white;
+    font-size: 20px;
+}
 
 /* Sticky Navbar*/
 
@@ -64,82 +65,15 @@ header ul li a{
     background-size: cover;*/
 }
 
-
 header.sticky .logo,
 header.sticky ul li a{
     color: #000;
 }
 
-/* CARP */
-
-.subheading{
-    color: white;
-    font-size: 20px;
-}
-
-/* .middleimage{
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.lowerimages{
-    flex-direction: row;
-    justify-content: space-evenly;
-    display: flex;
-} 
-*/
+/* Dropdown on navigation bar*/
 
 
-/* Type Task*/
-
-.typeimage{
-    width: 300px;
-}
-
-.left-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.left-wrap .mediacontent-left {
-    flex: 1;
-    padding: 10px;
-}
-
-.mediacontent-left {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.right-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.mediacontent-right {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.right-wrap .mediacontent-right {
-    flex: 1;
-    padding: 10px;
-}
-
+/*
 .type-container-navigation {
     display: flex;
     flex-wrap: wrap;
@@ -168,3 +102,4 @@ button:active {
     box-shadow: 0 5px purple;
     transform: translateY(4px);
 }
+*/
