@@ -14,6 +14,18 @@
 
 
 <body>
+
+    <header>
+        <a href="#" class = "logo">Home</a>
+        <ul>
+            <li><a href = "carp.html">CARP</a></li>
+            <li><a href = "Type Task.html">Type</a></li>
+            <li><a href = "UX.html">UX</a></li>
+            <li><a href = "CodingTask.html">Code</a></li>
+            <li><a href = "Reflection Report.html">Report</a></li>
+        </ul>
+    </header>
+    <section class = "banner"></section>
     <section class="type-task-section">
     <header>
         <h1>Type Task</h1>
@@ -85,7 +97,14 @@
     <p>Transitional Design</p>
     <img class = "typeimage" src="TypeTaskPNG/Transitional Design.png">
     </div>
+    </section>
 
+    <!--Javascript needs to be at the bottom-->
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 </body>
-</section>
 </html>
