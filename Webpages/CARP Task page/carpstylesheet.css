@@ -1,36 +1,13 @@
+/* Carp Task */
+
 body{
-    background-color: blueviolet ;
+    background-color: turquoise;
 }
 
-.mainimage{
-    width: 500px;
-    padding: 20px;
-}
-
-.carpimage{
-    width: 300px;
-}
-
-.subtitle{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
-
-.subheading{
-    color: white;
-    font-size: 20px;
-}
-
-.middleimage{
-    flex-direction: column;
+.section-one{
+    background-color: yellow;
+    height: 700px;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.lowerimages{
-    flex-direction: row;
-    justify-content: space-evenly;
-    display: flex;
+    justify-content: center;
 }

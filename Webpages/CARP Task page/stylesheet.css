@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color: blueviolet ;
-}
+} */
 
 
 /* Sticky Navbar*/
@@ -71,15 +71,6 @@ header.sticky ul li a{
 }
 
 /* CARP */
-.mainimage{
-    width: 500px;
-    padding: 20px;
-}
-
-.carpimage{
-    width: 300px;
-}
-
 .subtitle{
     text-align: center;
     color: white;
@@ -91,7 +82,7 @@ header.sticky ul li a{
     font-size: 20px;
 }
 
-.middleimage{
+/* .middleimage{
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -102,7 +93,8 @@ header.sticky ul li a{
     flex-direction: row;
     justify-content: space-evenly;
     display: flex;
-}
+} 
+*/
 
 
 /* Type Task*/
