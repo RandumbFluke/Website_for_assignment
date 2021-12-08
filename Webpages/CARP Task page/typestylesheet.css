@@ -84,7 +84,7 @@ button:active {
 */
 
 .axial-section{
-    height: 700px;
+    height: 500px;
 }
 
 .mediacontent{
@@ -97,6 +97,7 @@ button:active {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    padding-left: 20px;
 }
 
 .media-container .mediacontent{
