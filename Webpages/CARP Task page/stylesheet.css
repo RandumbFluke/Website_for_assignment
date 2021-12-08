@@ -1,0 +1,142 @@
+body{
+    background-color: blueviolet ;
+}
+
+
+/* Sticky Navbar*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+}
+
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+
+/* CARP */
+.mainimage{
+    width: 500px;
+    padding: 20px;
+}
+
+.carpimage{
+    width: 300px;
+}
+
+.subtitle{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.subheading{
+    color: white;
+    font-size: 20px;
+}
+
+.middleimage{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerimages{
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+
+/* Type Task*/
+
+.typeimage{
+    width: 300px;
+}
+
+.left-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.left-wrap .mediacontent-left {
+    flex: 1;
+    padding: 10px;
+}
+
+.mediacontent-left {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.right-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mediacontent-right {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.right-wrap .mediacontent-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.type-container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button{
+    border: 1px solid rgb(102, 19, 180);
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
+button:hover {
+    background-color: rgb(24, 194, 216);
+    color: rgb(226, 17, 17);
+}
+
+button:active {
+    background-color: blueviolet;
+    box-shadow: 0 5px purple;
+    transform: translateY(4px);
+}
