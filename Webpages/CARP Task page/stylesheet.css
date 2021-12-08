@@ -2,6 +2,11 @@
     background-color: blueviolet ;
 } */
 
+.subtitle{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
 
 /* Sticky Navbar*/
 
@@ -71,11 +76,6 @@ header.sticky ul li a{
 }
 
 /* CARP */
-.subtitle{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
 
 .subheading{
     color: white;
