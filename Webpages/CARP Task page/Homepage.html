@@ -18,5 +18,12 @@
             <li><a href = "#">Report</a></li>
         </ul>
     </header>
+    <section class = "banner"></section>
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 </body>
 </html>
