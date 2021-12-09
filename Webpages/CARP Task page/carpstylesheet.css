@@ -25,7 +25,7 @@ body{
 
 .carpimage{
     border: 1px dashed white;
-    width: 400px;
+    width: 500px;
     padding: 4px;
 }
 
@@ -55,7 +55,7 @@ body{
 
 .secondary-images{
     border: 1px dashed white;
-    width: 300px;
+    width: 400px;
     padding: 4px;
 }
 
@@ -72,6 +72,6 @@ body{
 }
 
 .image-group{
-    width: 500px;
-    align-items: center;
+    width: 400px;
+    justify-content: space-evenly
 }
