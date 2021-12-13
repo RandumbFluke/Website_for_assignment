@@ -17,7 +17,6 @@ body{
 }
 
 .section-two{
-    background-color: gold;
     display: flex;
     padding: 100px;
     flex-wrap: wrap;
@@ -28,6 +27,10 @@ body{
 
 .uximage{
     width: 500px;
+}
+
+.image{
+    height: 500px;
 }
 
 .mediacontent{
