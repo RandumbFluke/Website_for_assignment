@@ -1,3 +1,22 @@
 body{
     background-color: chocolate;
 }
+
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image{
+    width: 300px;
+}
+
