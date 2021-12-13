@@ -3,6 +3,7 @@ body{
 }
 
 .section-one{
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,5 +19,16 @@ body{
 
 .image{
     width: 300px;
+}
+
+.txt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
